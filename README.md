@@ -29,13 +29,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach does not return a new array automatically. For that, an empty array variable needs to be initialized in order to push the selected elements of an existing array into it. .map allows you to take parts of an existing array and return a new array from memory. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function that a higher order function receives as an argument.
 
 3. What is closure?
 
+A closure refers to a function and its lexical environment (where the function belongs). A closure the ability to access a function from the parent level scope in a child level scope, even after that function has been terminated.
+
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global binding involves the 'this' keyword not being used in a declared object. If the 'this' keyword is within a declared object, that will be the principle of implicit binding. What's being referred to with 'this' is determined by what's on the left of the dot after the keyword. In new binding, the 'new' keyword is used to create an object based off of a constructor function containing the 'this' keyword. Explicit binding involves the use of the following methods: 
+.call(), .apply(), and .bind(). Both .call() and .bind() allows arguments to be passed one by one, but .bind() does not immediately invoke a function, as .call() and .apply() would do. Instead, a new function that can later be invoked is returned. With .apply(), arguments are passed in as an array.
+
 5. Why do we need super() in an extended class?
+
+super() is used to run the parent function inside the parentheses when it comes to the scenario of inheritance, replacing the .call() method.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
