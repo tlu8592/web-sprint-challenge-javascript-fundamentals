@@ -17,7 +17,10 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+/* 
+The nested function will be able to access the internal variable because it is within the function scope of myFunction. The internal
+variable cannot be accessed from the outside of myFunction.
+*/
 
 
 
